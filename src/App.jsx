@@ -11,7 +11,13 @@ import Form from "./components/Form";
 function App() {
   return (
     <div className="font-sans text-gray-800">
-      <Form />
+      <Header />
+      <Hero />
+      <Features />
+      <Team />
+      <TrustedBy />
+      <Blog />
+      <Footer />
     </div>
   );
 }
